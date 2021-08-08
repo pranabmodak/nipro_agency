@@ -1,0 +1,277 @@
+@font-face{
+	font-family: Lato-Bold;
+	src: url(../fonts/lato/Lato-Bold.ttf);
+}
+@font-face{
+	font-family: Lato-Medium;
+	src: url(../fonts/lato/Lato-Medium.ttf);
+}
+@font-face{
+	font-family: Lato-Regular;
+	src: url(../fonts/lato/Lato-Regular.ttf);
+}
+@font-face{
+	font-family: Lato-Semibold;
+	src: url(../fonts/lato/Lato-Semibold.ttf);
+}
+@font-face{
+	font-family: Roboto-Medium;
+	src: url(../fonts/roboto/Roboto-Medium.ttf);
+}
+@font-face{
+	font-family: Roboto-Regular;
+	src: url(../fonts/roboto/Roboto-Regular.ttf);
+}
+/*common starts*/
+body{
+	font-family: Roboto-Regular;
+	font-size: 16px;
+	font-weight: 400;
+	color: #8e8e8e;
+}
+/*common starts*/
+
+/*HEADER*/
+header{}
+.logo{
+	font-family: Lato-Medium;
+	font-size: 30px !important;
+}
+.menu {
+    margin: 35px 0;
+}
+.menu ul{}
+.menu ul li{
+	margin-right: 25px;
+}
+.menu ul li:hover {
+	color: black !important;
+}
+.menu ul li a{
+	font-family: Lato-Bold;
+}
+.nav_search{}
+.btn_search{
+	color: #8e8e8e;
+
+}
+.btn_search:hover {
+	color: black;
+}
+.btn-check:focus + .btn_search, .btn_search:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.btn_search i{}
+
+.dropdown-menu, .c_dd_menu {
+    min-width: 400px !important;
+    padding: 5px 5px !important;
+  }
+
+.dropdown-menu, .c_dd_menu [data-bs-popper] {
+    top: 176% !important;
+    left: -368px !important;
+    margin-top: -0.875rem !important;
+}
+.b_s_icon {
+    padding: 0.80rem 0;
+}
+.menu_inpt {    
+    margin: 6px 6px;   
+}
+/*HEADER*/
+
+/*slider*/
+.slider{
+	background-image: url(../images/slider.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+}
+.s_1{
+    margin-top: 210px;
+    margin-bottom: 206px;
+}
+.s_1 h1{
+	font-family: Lato-Bold;
+	font-size: 60px !important;
+	color: white;
+	margin-bottom: 50px;
+}
+.s_1 p{
+	margin-bottom: 58px;
+    color: white;
+    line-height: 27px;  
+    word-spacing: 3px;
+}
+.s_1 button{
+	padding: 12px 25px;
+	font-family: Roboto-Medium;
+	font-size: 16px;
+	color: #333333;
+	/*margin-bottom: 190px;*/
+	border: none;
+
+}
+.s_1 button i{
+	margin-left: 20px;
+}
+
+.ccp, .ccn {
+	align-items: flex-end;
+	color: #8e8e8e;
+}
+.ccp,.ccn span{
+	background-image: none;
+}
+.ccn{
+	left: 70px !important;
+	color: #8e8e8e;
+}
+.ccn:hover {
+	color: #333333;
+}
+.ccp{
+
+	color: #8e8e8e;
+}
+.ccp span{
+	background-image: none;
+}
+.ccp:hover {
+	color: #333333;
+}
+/*slider*/
+/*service*/
+.service{
+    padding-bottom: 100px;
+}
+.c_title{
+	margin-bottom: 48px;
+}
+.t_arrow{
+	margin-top: 2px;
+	margin-bottom: 25px;
+	width: 1px;
+	height: 50px;
+	background-color: black;
+	display: inline-block;
+
+}
+.c_h1{
+	font-family: Lato-Regular;
+	font-size: 30px;
+	font-weight: 400;
+	color: #333333;
+}
+.s_text{
+	margin-bottom: 100px;
+}
+.s_text p{
+	margin-bottom: 0px !important;
+	line-height: 25px;
+}
+.s_service{
+	text-align: center;
+	padding: 70px 25px 40px;
+	border: 1px solid #8e8e8e;
+}
+.s_s_icon{
+	margin: 0 auto;
+	margin-top: -93px;
+	background-color: white;
+	width: 70px;
+}
+.s_s_icon i{
+	font-size: 60px;
+}
+.s_s_arrow{
+	margin-bottom: 18px;
+	width: 53px;
+	height: 1px;
+	background-color: #8e8e8e;
+	display: inline-block;
+}
+.s_service h2{
+	margin-top: 45px;
+    margin-bottom: 25px;
+	font-family: Lato-Bold;
+	font-size: 18px;
+	color: #333333;
+
+}
+.s_service p{
+	font-family: Roboto-Regular;
+    color: #8e8e8e;
+    margin-bottom: 30px;
+    word-spacing: 1px;
+}
+.s_service a{
+    margin-bottom: 40px;
+    margin-right: 8px;
+    font-family: Roboto-Medium;
+    color: #8e8e8e;
+    text-decoration: none;
+}
+.s_service span{
+	color: #8e8e8e;
+	margin-left: 15px;
+}
+.s_service:hover {
+	border-color: black;
+	color: black;
+}
+.s_s_icon:hover {
+   color: black;
+}
+.s_service a:hover{
+	color: black;
+}
+/*service*/
+
+/*about*/
+.about{
+	margin-bottom: 100px;
+}
+
+.a_image{}
+.a_image img{
+}
+.a_text h1{
+	margin-bottom: 40px;
+	font-family: Lato-Regular;
+	font-size: 30px;
+	color: #333333;
+}
+.a_p1{
+	line-height: 28px;
+	margin-bottom: 42px;
+	word-spacing: 2px;
+}
+.a_p2{
+	line-height: 28px;
+	margin-bottom: 42px;
+	word-spacing: 2px;
+}
+.a_text button{
+	margin-top: 30px;
+	padding: 12px 25px;
+	background-color: white;
+	border: 1px solid black !important;
+    font-family: Roboto-Medium;
+    font-size: 16px;
+    color: #333333;
+    border: none;
+}
+.a_text button i{
+	margin-left: 20px;
+}
+
+/*about*/
+
+
+
+
+
+

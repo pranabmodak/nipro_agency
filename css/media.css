@@ -1,0 +1,224 @@
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+        /*header starts*/
+        .logo {
+    font-size: 28px !important;
+}
+.humburg {
+    /* padding: 0.25rem 0.75rem; */ 
+    margin-top: -59px !important;
+    margin-left: 237px;
+}
+.dropdown-menu, .c_dd_menu [data-bs-popper] {
+     min-width: 200px !important;
+    top: 35px !important;
+    left: 0px !important;
+    margin-top: 20px !important;
+}
+.menu_inpt {
+    margin-top: 10px !important;
+    margin-bottom: 8px !important;
+    margin-left: 1px;
+}
+.menu ul {
+    margin-left: 0px;
+}
+.btn_search i {
+    margin-left: 10px;
+    font-size: 25px;
+    margin-top: 5px;
+}
+.b_s_icon {
+    font-size: 17px;
+    margin-left: -9px;
+    padding: 19px 0px 0px;
+}
+/*header ends*/
+/*slider starts*/
+.s_1 {
+    margin-top: 65px;
+    margin-bottom: 140px;
+}
+.s_1 h1 {
+    font-size: 36px !important;
+    margin-bottom: 35px;
+}
+.s_1 p {
+    margin-bottom: 58px;
+    line-height: 25px;
+    word-spacing: 0px;
+}
+.s_1 button {
+    padding: 12px 25px;
+    margin-bottom: 40px;
+}
+/*slider ends*/
+/*service starts*/
+.service {
+    padding-bottom: 75px;
+}
+.c_title {
+    margin-bottom: 25px;
+}
+.t_arrow {
+    margin-top: 7px;
+    margin-bottom: 20px;
+    height: 45px;
+}
+.s_text {
+    margin-bottom: 60px;
+}
+.s_service h2 {
+    margin-top: 25px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.s_service p {
+    margin-bottom: 25px;
+}
+.s_s_arrow {
+    margin-bottom: 13px;
+    width: 55px;
+}
+
+.s_service a {
+    margin-right: -19px;
+}
+
+/*service ends*/
+/*about starts*/
+.a_text{
+    text-align: center;
+    margin-top: 25px;
+}
+.about {
+    margin-bottom: 70px;
+    margin-top: -45px;
+}
+.a_p1 {
+    word-spacing: 0px;
+    padding: 0 10px;
+    margin-bottom: 30px;
+}
+.a_p2 {
+    word-spacing: 0px;
+    padding: 0 10px;
+}
+
+
+/*about ends*/
+ }
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /*header starts*/
+.dropdown-menu, .c_dd_menu [data-bs-popper] {
+    top: -25px !important;
+    left: 75px !important;
+    margin-top: 15px !important;
+}
+.menu_inpt {
+    margin-top: 7px !important;
+    margin-bottom: 4px;
+    margin-left: 9px;
+    margin-right: 3px;
+}
+.menu ul {
+    margin-left: 18px;
+}
+.btn_search i {
+    margin-left: 10px;
+    font-size: 25px;
+    margin-top: 5px;
+}
+.b_s_icon {
+    padding: 0.80rem 0px;
+    font-size: 18px;
+}
+/*header ends*/
+/*slider starts*/
+.s_1 {
+    margin-top: 110px;
+    margin-bottom: 140px;
+}
+
+/*slider ends*/
+/*service starts*/
+.service {
+    padding-bottom: 75px;
+}
+.s_text {
+    margin-bottom: 75px;
+}
+.s_service h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.s_s_arrow {
+    margin-bottom: 13px;
+    width: 55px;
+}
+
+.s_service a {
+    margin-right: -19px;
+}
+
+/*service ends*/
+/*about starts*/
+.a_text{
+    text-align: center;
+}
+.about {
+    margin-bottom: 70px;
+    margin-top: -45px;
+}
+/*about ends*/
+}
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+/*header starts*/
+.dropdown-menu, .c_dd_menu [data-bs-popper] {
+    top: -25px !important;
+    left: 75px !important;
+    margin-top: 15px !important;
+}
+.menu_inpt {
+    margin-top: 10px !important;
+    margin-bottom: 4px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+/*header ends*/
+/*service*/
+.s_service a {
+    margin-right: -19px;
+}
+/*about starts*/
+.a_text{
+    text-align: center;
+}
+.about {
+    margin-bottom: 70px;
+    margin-top: -45px;
+}
+
+
+/*about ends*/
+}
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+
+ /*X-Large devices (large desktops, 1200px and up))*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+
+ }
+
+/*  XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+
+ }
